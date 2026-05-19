@@ -6,7 +6,7 @@ export class GildedRose {
   maximumQuality = 50;
   minimumQuality = 0;
 
-  constructor(items = [] as Array<Item>) {
+  constructor(items: Item[] = []) {
     this.items = items;
   }
 
